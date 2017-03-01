@@ -1,13 +1,13 @@
 {
   "name": "fleishman",
   "version": "1.0.0",
-  "description": "CLI tool for FleishmanHillard",
+  "description": "FleishmanHillard CLI Tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nathan Beck <nathan.beck@fleishman.com>",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bin": {
     "fleishman": "./index.js"
   },
