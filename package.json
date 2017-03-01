@@ -1,0 +1,21 @@
+{
+  "name": "fleishman",
+  "version": "1.0.0",
+  "description": "CLI tool for FleishmanHillard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Beck <nathan.beck@fleishman.com>",
+  "license": "ISC",
+  "bin": {
+    "fleishman": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.0.5",
+    "node-cmd": "^2.0.0",
+    "node-wp-cli": "0.0.2"
+  }
+}
