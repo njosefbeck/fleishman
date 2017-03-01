@@ -6,7 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nathan Beck <nathan.beck@fleishman.com>",
+  "bugs": {
+    "url": "https://github.com/njosefbeck/fleishman/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njosefbeck/fleishman.git"
+  },
+  "author": "Nathan Beck <njosefbeck@gmail.com>",
   "license": "UNLICENSED",
   "bin": {
     "fleishman": "./index.js"
