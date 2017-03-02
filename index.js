@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 const chalk = require ('chalk');
-const figlet = require('figlet');
 const inquirer = require('inquirer');
+const emoji = require('node-emoji');
 
 const wp = require('./lib/wp');
 
-console.log(chalk.cyan(figlet.textSync('fleishman', {
-  horizontalLayout: 'full'
-})));
+console.log(chalk.cyan.bold(`
+FLEISHMAN ${emoji.get('heart')}  v1.0.1
+-------------------`));
 
 function getSelectionFromTableOfContents(callback) {
   const questions = [
@@ -17,7 +17,7 @@ function getSelectionFromTableOfContents(callback) {
       message: chalk.green('Select what you would like to do from the list below.'),
       choices: [
         {
-          name: chalk.green('Install WordPress locally'),
+          name: chalk.green('Create a local WordPress project'),
           value: 'installwp'
         }
       ]

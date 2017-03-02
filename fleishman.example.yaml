@@ -1,0 +1,10 @@
+directory: example.com
+siteUrl: example.com
+mysqlUser: root
+mysqlPass: root
+dbName: example_com
+dbUser: wp_example
+dbPass: 1234
+adminUser: wp_admin
+adminPass: 1234
+adminEmail: admin@example.com
